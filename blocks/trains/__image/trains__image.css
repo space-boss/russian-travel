@@ -1,0 +1,8 @@
+.trains__image {
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}

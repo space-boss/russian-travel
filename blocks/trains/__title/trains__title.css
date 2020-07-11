@@ -1,0 +1,15 @@
+.trains__title {
+max-width: 560px;
+min-height: 152px;
+margin: 0 auto 32px;
+text-align: center;
+z-index: 2;
+
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 106%;
+
+
+color: #FFFFFF;
+}

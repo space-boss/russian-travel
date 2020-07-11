@@ -1,0 +1,14 @@
+@font-face {
+  src: url(../fonts/Inter-Regular.woff) format('woff');
+  src: url(../fonts/Inter-Regular.woff2) format('woff2');
+  font-family: 'Inter';
+}
+
+.root {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #2A2C2F;
+}
+

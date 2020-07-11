@@ -1,0 +1,24 @@
+.photo-grid__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  width: 284px;
+  height: 213px;
+  background-size: contain;
+}
+
+.photo-grid__item:nth-of-type(3) {
+  grid-column-start: 3;
+  grid-column-end: -1;
+}
+
+.photo-grid__item:nth-of-type(6) {
+  grid-column-start: 3;
+  grid-column-end: -1;
+}
+
+.photo-grid__item:last-of-type {
+  grid-column-start: 4;
+  grid-column-end: -1;
+}

@@ -1,0 +1,9 @@
+.place__paragraph {
+  margin: 0 0 24px;
+}
+
+.place__paragraph:first-of-type {
+  margin-top: -1.5%;
+}
+
+

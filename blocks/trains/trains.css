@@ -1,0 +1,8 @@
+.trains {
+  width: 1184px;
+  height: 740px;
+  margin: 0 auto 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
