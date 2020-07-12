@@ -8,3 +8,8 @@
   background: #2A2C2F;
   opacity: 0.3;
 }
+
+.trains__background-overlay:hover {
+ opacity: 0.8;
+ transition: ease-out 0.25s;
+}

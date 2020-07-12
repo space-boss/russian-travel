@@ -9,3 +9,8 @@ text-decoration-line: underline;
 
 color: #FFFFFF;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: ease-out 0.15s;
+}
