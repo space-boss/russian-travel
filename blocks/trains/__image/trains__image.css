@@ -1,5 +1,5 @@
 .trains__image {
-  position: absolute;
+  position: relative;
   width: 1184px;
   height: 740px;
   background-size: cover;
