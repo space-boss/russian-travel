@@ -34,8 +34,12 @@
 
 @import url(../blocks/trains/trains.css);
 @import url(../blocks/trains/__image/trains__image.css);
+@import url(../blocks/trains/__link/trains__link.css);
 @import url(../blocks/trains/__background-overlay/trains__background-overlay.css);
 @import url(../blocks/trains/__title/trains__title.css);
 @import url(../blocks/trains/__subtitle/trains__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

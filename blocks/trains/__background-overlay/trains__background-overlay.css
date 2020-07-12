@@ -1,7 +1,9 @@
-/*.trains__background-overlay {
+.trains__background-overlay {
   width: 1184px;
   height: 740px;
   position: absolute;
+  top: 0;
+  right: 0;
   z-index: 1;
   background: #2A2C2F;
   opacity: 0.3;
