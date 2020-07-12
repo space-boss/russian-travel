@@ -1,8 +1,7 @@
 .footer {
-  border: solid red 1px;
   max-width: 1184px;
   min-height: 18px;
   margin: 0 auto 24px;
   display: flex;
-
+  justify-content: space-between;
 }
