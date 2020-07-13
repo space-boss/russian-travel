@@ -1,5 +1,8 @@
 .intro {
-  margin: 92px auto 92px 148px ;
+  margin: 0 auto 92px 148px;
+
   max-width: 690px;
   min-height: 428px;
 }
+
+padding: 92px auto 92px 148px;
