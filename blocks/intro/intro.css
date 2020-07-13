@@ -1,8 +1,7 @@
 .intro {
-  margin: 0 auto 92px 148px;
-
+  position: relative;
+  top: 0;
+  left: 8%;
+  margin: 0 0 92px 0;
   max-width: 690px;
-  min-height: 428px;
 }
-
-padding: 92px auto 92px 148px;

@@ -6,6 +6,7 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
+@import url(../blocks/content/content.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -43,3 +44,12 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 14px;
+  }
+}
