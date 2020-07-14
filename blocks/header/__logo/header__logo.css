@@ -3,4 +3,5 @@
   width: 176px;
   height: 52px;
   align-self: flex-start;
+  background-size: contain;
 }
