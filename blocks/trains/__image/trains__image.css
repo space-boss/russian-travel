@@ -1,7 +1,6 @@
 .trains__image {
   position: relative;
-  width: 1184px;
-  height: 740px;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;

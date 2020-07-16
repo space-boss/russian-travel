@@ -1,8 +1,9 @@
 .header {
 display: flex;
-max-width: 1184px;
-height: 52px;
-margin: 28px 48px 0 48px;
+width: 92.5%;
+min-height: 42px;
+margin: 0 auto;
+padding: 28px 0 0;
 text-align: flex-end;
 justify-content: space-between;
 }
