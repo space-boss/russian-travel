@@ -67,6 +67,37 @@
     grid-gap: 14px;
   }
 
+  .places {
+    max-width: 928px;
+    margin: 92px auto;
+    display: grid;
+    grid-template-rows: 5, 1fr;
+    grid-gap: 80px;
+  }
+
+  .place {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 47% calc(100% - 47% - 32px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-gap: 48px 32px;
+  }
+
+  .place__image {
+    width: 100%;
+  }
+
+  .trains {
+    width: 100%;
+    max-height: 640px;
+  }
+
+  .footer {
+    width: 928px;
+    margin: 0 auto 24px;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -103,47 +134,58 @@
   }
 
   .places {
-    margin: 64px auto;
+    margin: 88px auto;
     display: grid;
-    grid-template-columns: 1, 1fr;
-    grid-gap: 24px;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 5, 1fr;
+    grid-gap: 72px;
   }
 
   .place {
-    display: flex;
-    flex-direction: column;
+    width: 94%;
     margin: 0 auto;
-  }
-
-  .place__website {
-    display: none;
+    display: grid;
+    grid-template-columns: 47% calc(100% - 47% - 28px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-gap: 48px 28px;
   }
 
   .place__image {
     width: 100%;
-    margin: 0 0 32px 32px;
   }
 
   .place__title {
-    font-size: 10vw;
+    font-size: 5.5vw;
     width: 90%;
-    margin: 0 auto 32px;
   }
 
   .place__text {
     font-size: 16px;
     line-height: 162%;
-    margin: 0 auto;
-    width: 90%;
+    margin: 0;
+    width: 100%;
   }
 
   .trains {
     max-height: 480px;
   }
 
+  .footer {
+    width: 93.5%;
+    margin: 0 auto 24px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+  .header {
+    top: 16px;
+  }
+
   .header__logo {
     width: 142px;
     height: 42px;
@@ -156,7 +198,7 @@
   .lead__title {
     font-size: 12.5vw;
     line-height: 110%;
-    max-width: 288px;
+    min-width: 288px;
   }
 
   .lead__subtitle {
@@ -182,15 +224,51 @@
     grid-gap: 12px;
   }
 
+  .places {
+    width: 100%;
+    margin: 64px auto;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-gap: 24px;
+  }
+
+  .place {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .place__image {
+    width: 100%;
+    margin: 0 0 32px;
+  }
+
+  .place__website {
+    display: none;
+  }
+
+  .place__title {
+    font-size: 10vw;
+    width: 90%;
+    margin: 0 auto 32px;
+  }
+
+  .place__text {
+    font-size: 16px;
+    line-height: 162%;
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .trains {
     width: 100%;
-    height: 200px;
+    height: 62.5vw;
     margin-bottom: 20vw;
   }
 
   .trains__background-overlay {
     width: 100%;
-    height: 200px;
+    height: 62.5vw;
   }
 
   .trains__title {
@@ -216,7 +294,7 @@
   }
 
   .footer__link {
-    font-size: 7.5vw;
+    font-size: 24px;
     line-height: 100%;
     margin-bottom: 10vw;
   }
