@@ -4,6 +4,7 @@
   height: 52px;
   align-self: flex-start;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
