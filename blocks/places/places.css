@@ -5,3 +5,36 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 48px*2);
+    display: grid;
+    grid-template-rows: 5, 1fr;
+    grid-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 100%;
+    margin: 88px 0;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 5, 1fr;
+    grid-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places {
+    width: 100%;
+    margin: 64px auto;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-gap: 24px;
+  }
+}
+
+
+

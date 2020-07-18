@@ -10,3 +10,32 @@ margin-bottom: 80px;
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin: 0 auto;
+    grid-template-columns: 47% calc(100% - 47% - 32px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    width: 94%;
+    margin: 0 auto;
+    grid-template-columns: 47% calc(100% - 47% - 28px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

@@ -1,7 +1,19 @@
 .footer__links {
-  max-width: 465px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
 }
+
+
+@media screen and (max-width: 500px) {
+  .footer__links {
+    flex-direction: column;
+    margin-bottom: 48px;
+    min-height: 248px;
+  }
+}
+

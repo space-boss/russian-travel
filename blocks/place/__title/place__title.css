@@ -8,7 +8,19 @@
   line-height: 106%;
   color: #FFFFFF;
   margin: 0;
-
-  justify-self: left;
-  align-self: end;
 }
+
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 5.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__title {
+    font-size: 10vw;
+    margin: 0 16px 32px;
+  }
+}
+

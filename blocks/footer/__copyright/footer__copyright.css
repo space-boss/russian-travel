@@ -7,3 +7,11 @@
   margin: 0;
   text-align: right;
 }
+
+
+@media screen and (max-width: 500px) {
+  .footer__copyright {
+    font-size: 14px;
+    text-align: left;
+  }
+}

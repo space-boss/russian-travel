@@ -13,3 +13,14 @@ line-height: 106%;
 
 color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 425px) {
+
+  .trains__title {
+    font-size: 10vw;
+    margin-bottom: 16px;
+    line-height: 109%;
+  }
+}
+
