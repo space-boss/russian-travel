@@ -6,3 +6,12 @@
   line-height: 107%;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
+    padding-right: 50px;
+  }
+}

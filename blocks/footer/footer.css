@@ -14,13 +14,6 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-  .footer {
-    width: calc(100% - 48px*2);
-    margin: 0 48px 24px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     flex-wrap: wrap;
