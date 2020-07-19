@@ -5,16 +5,12 @@
   margin: 0 auto;
   width: calc(100% - 48px*2);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-gap: 16px;
 }
 
-
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
     grid-gap: 14px;
   }
 }
@@ -22,16 +18,12 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     width: calc(100% - 24px*2);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
   }
 }
 
 @media screen and (max-width: 425px) {
  .photo-grid {
     width: calc(100% - 16px*2);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 1fr);
     grid-gap: 12px;
   }
 }
