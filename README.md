@@ -1,41 +1,19 @@
-# Проект 3: Путешествие по России
-*Сдан на первую проверку: 16.07.2020*
-<br>
-*Сдан на вторую проверку: 18.07.2020*
+# RUSSIAN TRAVEL. Student project for Yandex.Practicum
 
-**Ссылка на проект: https://space-boss.github.io/russian-travel/**
+### Description
 
+Single page website with the grid-based gallery adapting to different screen resolutions. 
 
-После первого код-ревью устранены следующие ошибки:
-1. Устранены дубли в css. свойствах
-<br>
-<br>
+Design is created in accordance to [Firma prototype](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0). 
 
-
-
-
-После первого код-ревью устранены следующие ошибки:
-1. Скорректирована файловая структура, создан отдельный файл для шрифтов, медиазапросы для БЭМ-сущностей располагаются на соответствующих страницах
-2. Устранен горизонтальный скролл на промежуточных разрешениях
-3. Скорректированы отступы и размены элементов.
-
-Рекоммендации ревьюера из группы "Можно лучше" также будут исправлены в ближайшее время. Высылаю работу на проверку до применения этих исправлений из-за стремительно приблежающегося дедлайна.
+### Skillset needed for creating the project
+* Working with Figma prototypes
+* Resizing elements using media queries
+* Positioning of elements with the help of grids and flexbox
+* Importing fonts and media files into the project
+* Creating a project structure with BEM-methodology
 
 
+#### Have a look at the project on GitHub Pages
 
-
-**Цель работы:** Построение адаптивного макета с помощью относительных величин и медиазапросов;
-
-### Навыки необходимые для выполнения работы
-* Работа с макетом в Figma
-* Построение структуры документа по БЭМ
-* Позиционирование элементов
-* Построение сетки с помощью гридов и флекса
-* Подключение шрифтов и картинок к документу
-
-
-*Возможные доработки /Nice-to-have*
-
-1. Работа с типографикой
-2. Подгон страницы под макет PixelPerfect
-
+https://space-boss.github.io/russian-travel/
